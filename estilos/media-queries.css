@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* typical devices Breakpoints
+   - Mobile: 320px a 768px
+   - Tablet: 768px a 992px
+   - Desktop: 992 a 1200px
+   - Larges screens: 1200px
+*/
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    section{
+        width: 80vw;
+        display: block;
+
+    }
+    .imagem{
+        width: 30%;
+        float: left;
+        height: 100%;
+        
+    }
+    .login{
+        width: 70%;
+        float: right;
+        
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    section{
+        width: 60vw;
+        display: block;
+    }
+    .imagem{
+        width: 40%;
+        float: left;
+        height: 100%;
+        
+    }
+    .login{
+        width: 60%;
+        float: right;
+        
+    }
+    
+}
