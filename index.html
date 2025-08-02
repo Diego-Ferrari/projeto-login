@@ -20,23 +20,29 @@
         <div class="login">
             <h1>Login</h1>
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        </div>
-        <div>
-            <form action="login.php" class="formulario">
-                <label for="email">
+            <form action="login;php">
+                <div class="campo">
                     <span class="material-symbols-outlined">person
                     </span>
-                </label>
-                
-                <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
-                <label for="senha">
+                    <input type="email" name="login" id="login" placeholder="Digite seu email" required>
+                    <label for="login">Login</label>
+                </div>
+                <div class="campo">
                     <span class="material-symbols-outlined">key
                     </span>
-                </label>
-                <input type="password" name="senha" id="senha" placeholder="Sua Senha" required>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                    <label for="senha">Senha</label>
+                </div>
+                <input type="submit" value="Entrar" class="btn">
+                <a href="#" class="botao">Esqueci a senha <span class="material-symbols-outlined">mail
+                </span>
+                </a>
+                
+
             </form>
-            
         </div>
+                  
+        
     </section>
     
 </body>

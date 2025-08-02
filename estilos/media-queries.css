@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     section{
-        width: 60vw;
+        width: 80vw;
         display: block;
     }
     .imagem{
@@ -43,4 +43,22 @@
         
     }
     
+}
+
+@media screen and (min-width: 1200px) {
+    section{
+        width: 80vw;
+        display: block;
+    }
+    .imagem{
+        width: 50%;
+        float: left;
+        height: 100%;
+        
+    }
+    .login{
+        width: 50%;
+        float: right;
+        
+    }
 }
